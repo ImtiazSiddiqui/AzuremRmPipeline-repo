@@ -20,7 +20,7 @@ steps:
     location: 'Central US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/ImtiazSiddiqui/AzuremRmPipeline-repo/main/CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName MyDeploy'
+    overrideParameters: '-projectName mydeploy'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
 
